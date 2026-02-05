@@ -48,3 +48,18 @@ if (true) {
 }
 
 console.log(x); // 10 😵 (unexpected)
+
+
+
+
+// Scope example (important!)
+let a = 1;
+
+function test() {
+  let b = 2;
+  console.log(a); // works
+  console.log(b); // works
+}
+
+test();
+// console.log(b); ❌ error

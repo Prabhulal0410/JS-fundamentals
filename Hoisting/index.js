@@ -39,3 +39,30 @@ var x;
 // execution phase
 console.log(x); // undefined
 x = 5;
+
+
+
+
+
+// output based question
+
+console.log(a);      // ?
+foo();               // ?
+bar();               // ?
+
+var a = 10;
+
+function foo() {
+  console.log("foo:", a);
+  var a = 20;
+  console.log("foo after:", a);
+}
+
+var bar = function () {
+  console.log("bar:", a);
+};
+
+console.log(a);      // ?
+
+
+// answer is   TypeError: bar is not a function

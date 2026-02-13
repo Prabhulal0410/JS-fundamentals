@@ -95,3 +95,45 @@
 //     console.log("User Age:", user.age);
 // }
 // fetchData(displayData);
+
+
+
+// Callback Hell (also called the “Pyramid of Doom”) is a situation in asynchronous programming where multiple callbacks are nested inside each other, making code hard to read, maintain, and debug.
+
+// It’s common in JavaScript, especially before modern features like Promises and async/await.
+
+// 🔥 Why It Happens
+// In JavaScript (like in Node.js or browsers), asynchronous tasks such as:
+// API calls
+// File reading
+// Database queries
+// Timers
+
+// use callbacks to run code after the task finishes.
+
+// When many async steps depend on each other, callbacks get deeply nested.
+
+// ❌ Example of Callback Hell
+// getUser(userId, function(user) {
+//     getOrders(user.id, function(orders) {
+//         getOrderDetails(orders[0], function(details) {
+//             processOrder(details, function(result) {
+//                 console.log("Done:", result);
+//             });
+//         });
+//     });
+// });
+
+// Problems:
+// Hard to read (pyramid shape)
+// Difficult error handling
+// Tough to maintain
+// Hard to reuse logic
+
+// 😵 Why It's Bad
+
+// Poor readability
+// Error handling becomes messy
+// Debugging is harder
+// Code reuse is limited
+// Deep nesting increases complexity

@@ -2,19 +2,46 @@
 
 // Closure = function + its lexical scope.
 
-function outer() {
-  let count = 0;
+// function outer() {
+//   let count = 0;
 
-  function inner() {
-    count++;
-    console.log(count);
-  }
+//   function inner() {
+//     count++;
+//     console.log(count);
+//   }
 
-  return inner;
-}
+//   return inner;
+// }
 
-const counter = outer();
+// const counter = outer();
 
-counter(); // 1
-counter(); // 2
-counter(); // 3
+// counter(); // 1
+// counter(); // 2
+// counter(); // 3
+
+
+
+
+// function greet(name) {
+//   return function () {
+//     console.log("Hello " + name);
+//   };
+// }
+
+// const sayHello = greet("John");
+
+// sayHello(); // Hello John
+
+
+// Private Variable Example
+// function secret() {
+//   let message = "I am private";
+
+//   return function () {
+//     console.log(message);
+//   };
+// }
+
+// const reveal = secret();
+// reveal(); // I am private
+

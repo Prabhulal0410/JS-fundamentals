@@ -45,3 +45,32 @@
 // const reveal = secret();
 // reveal(); // I am private
 
+
+
+// Multiplier Function
+// function multiplyBy(x) {
+//   return function (y) {
+//     return x * y;
+//   };
+// }
+
+// const double = multiplyBy(2);
+// const triple = multiplyBy(3);
+
+// console.log(double(5)); // 10
+// console.log(triple(5)); // 15
+
+
+// // Timer Counter Example
+// function createCounter() {
+//   let count = 0;
+
+//   return function () {
+//     count++;
+//     console.log("Current count:", count);
+//   };
+// }
+
+// const increment = createCounter();
+
+// setInterval(increment, 1000);

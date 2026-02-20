@@ -74,3 +74,64 @@
 // const increment = createCounter();
 
 // setInterval(increment, 1000);
+
+
+
+//  The Common Problem 
+
+for (var i = 1; i <= 3; i++) {
+  setTimeout(function() {
+    console.log(i);
+  }, 1000);
+}
+
+//  What do you expect?
+1
+2
+3
+
+//  What actually happens?
+4
+4
+4
+
+// Why?
+
+// var is function-scoped, not block-scoped.
+// The loop finishes first.
+// When setTimeout runs, i is already 4.
+// All functions share the same i.
+// This happens because each function closes over the same variable, not a copy of it.
+
+
+// ✅ Solution 1: Use let (Block Scope)
+// for (let i = 1; i <= 3; i++) {
+//   setTimeout(function() {
+//     console.log(i);
+//   }, 1000);
+// }
+
+// Solution 2: Use an IIFE (Before let existed)
+// for (var i = 1; i <= 3; i++) {
+//   (function(currentValue) {
+//     setTimeout(function() {
+//       console.log(currentValue);
+//     }, 1000);
+//   })(i);
+// }
+
+// Why this works:
+// The IIFE creates a new scope.
+// currentValue stores a copy of i.
+// Each closure remembers its own value.
+
+// 🧠 Simple Explanation
+
+// Think of a closure like a backpack 🎒
+// Each function carries a backpack of variables from where it was created.
+
+// With var:
+// All functions share one backpack.
+
+// With let or IIFE:
+// Each function gets its own backpack.

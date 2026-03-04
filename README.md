@@ -45,7 +45,7 @@ js-fncfamdnts/
 ├── scope.js
 ├── arrrowfucntions.js
 ├── loops.js
-└── more files coming soon...
+└── more files coming soon..
 ```
 
 Each file focuses on a specific **JavaScript concept**.

@@ -59,3 +59,97 @@
 // Purpose	    Collect values	                Expand values
 // Example	    function f(...args)	            [...arr]
 // Result	    Array of remaining items	    Individual elements
+
+
+
+
+// The Spread Operator (...) in JavaScript is used to expand (spread out) elements of an array, object, or iterable into individual elements.
+
+// In simple words:
+// ➡️ Spread = break apart elements
+
+// 1️⃣ Spread Operator with Arrays
+
+// It expands elements of an array.
+
+// const arr1 = [1, 2, 3];
+// const arr2 = [...arr1];
+
+// console.log(arr2); 
+// // [1, 2, 3]
+
+// Here:
+
+// ...arr1 → 1, 2, 3
+
+// So the elements are spread individually.
+
+// 2️⃣ Merging Arrays
+
+// Spread is commonly used to combine arrays.
+
+// const arr1 = [1, 2];
+// const arr2 = [3, 4];
+
+// const merged = [...arr1, ...arr2];
+
+// console.log(merged);
+// // [1, 2, 3, 4]
+
+// Without spread, this would be harder.
+
+// 3️⃣ Adding Elements to Array
+// const numbers = [2, 3];
+
+// const newNumbers = [1, ...numbers, 4];
+
+// console.log(newNumbers);
+// // [1, 2, 3, 4]
+
+// Spread lets you insert arrays anywhere.
+
+// 4️⃣ Spread with Objects
+
+// Spread can copy or merge objects.
+
+// const user = {
+//   name: "Rahul",
+//   age: 22
+// };
+
+// const updatedUser = {
+//   ...user,
+//   city: "Mumbai"
+// };
+
+// console.log(updatedUser);
+
+// Output:
+
+// {
+//   name: "Rahul",
+//   age: 22,
+//   city: "Mumbai"
+// }
+// 5️⃣ Copying Objects
+// const obj1 = { a: 1, b: 2 };
+
+// const obj2 = { ...obj1 };
+
+// console.log(obj2);
+
+// This creates a shallow copy.
+
+// 6️⃣ Spread with Function Arguments
+// function sum(a, b, c) {
+//   return a + b + c;
+// }
+
+// const numbers = [1, 2, 3];
+
+// console.log(sum(...numbers));
+// // 6
+
+// Here spread converts:
+
+// [1,2,3] → 1,2,3

@@ -45,3 +45,17 @@
 // console.log(details); // { age: 25, city: "Mumbai" }
 
 // ✔ details contains the remaining properties.
+
+
+
+
+
+
+// ⚡ Rest vs Spread (Important)
+
+// Both use ... but behave differently.
+
+// Feature	    Rest Operator	                Spread Operator
+// Purpose	    Collect values	                Expand values
+// Example	    function f(...args)	            [...arr]
+// Result	    Array of remaining items	    Individual elements

@@ -25,3 +25,18 @@
 
 // resolve() → success result
 // reject() → error result
+
+
+
+// Consuming a Promise (then, catch)
+
+// myPromise
+//   .then((result) => {
+//     console.log(result);
+//   })
+//   .catch((error) => {
+//     console.log(error);
+//   });
+
+// .then() → runs when resolved
+// .catch() → runs when rejected

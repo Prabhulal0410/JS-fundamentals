@@ -9,3 +9,19 @@
 // Rejected – operation failed
 
 // Once a promise is fulfilled or rejected, it cannot change again.
+
+
+// Creating a Promise
+
+// const myPromise = new Promise((resolve, reject) => {
+//   let success = true;
+
+//   if (success) {
+//     resolve("Task completed!");
+//   } else {
+//     reject("Task failed!");
+//   }
+// });
+
+// resolve() → success result
+// reject() → error result

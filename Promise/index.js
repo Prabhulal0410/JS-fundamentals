@@ -40,3 +40,19 @@
 
 // .then() → runs when resolved
 // .catch() → runs when rejected
+
+
+
+// Real Example (Simulating API Call)
+
+// function fetchData() {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       resolve("Data received from server");
+//     }, 2000);
+//   });
+// }
+
+// fetchData().then((data) => {
+//   console.log(data);
+// });

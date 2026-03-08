@@ -56,3 +56,19 @@
 // fetchData().then((data) => {
 //   console.log(data);
 // });
+
+
+
+// Promise Chaining
+
+// fetchData()
+//   .then((data) => {
+//     console.log(data);
+//     return "Processing data";
+//   })
+//   .then((msg) => {
+//     console.log(msg);
+//   })
+//   .catch((err) => console.log(err));
+
+// Each .then() receives the result of the previous one.

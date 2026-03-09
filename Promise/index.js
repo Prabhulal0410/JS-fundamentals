@@ -107,3 +107,16 @@
 // promise
 //   .then((data) => console.log(data))
 //   .catch((err) => console.log(err));
+
+
+
+// Visual Flow
+// Create Promise
+//      │
+//      ▼
+//   Pending
+//    /   \
+//   ▼     ▼
+// Resolve Reject
+//   │       │
+//  .then() .catch()

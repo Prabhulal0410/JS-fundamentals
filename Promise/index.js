@@ -94,3 +94,16 @@
 //   .then((res) => {
 //     console.log(res);
 //   });
+
+
+
+// Promise Error Handling
+// Errors automatically go to .catch().
+
+// const promise = new Promise((resolve, reject) => {
+//   reject("Something went wrong");
+// });
+
+// promise
+//   .then((data) => console.log(data))
+//   .catch((err) => console.log(err));

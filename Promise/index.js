@@ -72,3 +72,25 @@
 //   .catch((err) => console.log(err));
 
 // Each .then() receives the result of the previous one.
+
+
+
+// Returning a Promise from .then()
+// Example:
+
+// function step1() {
+//   return Promise.resolve("Step 1 done");
+// }
+
+// function step2() {
+//   return Promise.resolve("Step 2 done");
+// }
+
+// step1()
+//   .then((res) => {
+//     console.log(res);
+//     return step2();
+//   })
+//   .then((res) => {
+//     console.log(res);
+//   });

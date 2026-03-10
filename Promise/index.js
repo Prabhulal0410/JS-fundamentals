@@ -187,3 +187,34 @@
 
 // Loading many APIs
 // Showing partial results
+
+
+
+
+// Promise.race()
+
+// Promise.race() returns the first promise that finishes (success or failure).
+
+// Example
+// const p1 = new Promise(res => setTimeout(() => res("First"), 1000));
+// const p2 = new Promise(res => setTimeout(() => res("Second"), 2000));
+
+// Promise.race([p1, p2])
+//   .then(result => console.log(result));
+
+// Output:
+
+// First
+
+// 📌 Use cases:
+// Timeout logic
+// Fastest server response
+
+// Example timeout:
+
+// Promise.race([
+//   fetch("https://api.com/data"),
+//   new Promise((_, reject) =>
+//     setTimeout(() => reject("Timeout"), 3000)
+//   )
+// ])

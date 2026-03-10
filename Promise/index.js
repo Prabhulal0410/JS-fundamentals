@@ -159,3 +159,31 @@
 
 // Output:
 // Error!
+
+
+
+
+// Promise.allSettled()
+// Promise.allSettled() waits for all promises to finish, whether they succeed or fail.
+// It never rejects.
+
+// Example
+// const p1 = Promise.resolve("Success");
+// const p2 = Promise.reject("Failed");
+
+// Promise.allSettled([p1, p2])
+//   .then((results) => console.log(results));
+
+// Output:
+
+// [
+//  { status: "fulfilled", value: "Success" },
+//  { status: "rejected", reason: "Failed" }
+// ]
+
+// 📌 Use when you want results of every promise, even failed ones.
+
+// Example:
+
+// Loading many APIs
+// Showing partial results

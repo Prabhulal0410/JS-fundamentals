@@ -120,3 +120,42 @@
 // Resolve Reject
 //   │       │
 //  .then() .catch()
+
+
+
+// Promise.all()
+
+// Promise.all() runs multiple promises in parallel and returns the results when all promises succeed.
+// If any promise fails, the whole thing fails.
+
+// Example
+// const p1 = Promise.resolve("A");
+// const p2 = Promise.resolve("B");
+// const p3 = Promise.resolve("C");
+
+// Promise.all([p1, p2, p3])
+//   .then((results) => {
+//     console.log(results);
+//   })
+//   .catch((err) => console.log(err));
+
+// Output:
+// ["A", "B", "C"]
+
+// 📌 Important:
+
+// Runs promises in parallel
+// Returns array of results
+// Fails immediately if one promise rejects
+
+// Example failure:
+
+// const p1 = Promise.resolve("A");
+// const p2 = Promise.reject("Error!");
+// const p3 = Promise.resolve("C");
+
+// Promise.all([p1, p2, p3])
+//   .catch(err => console.log(err));
+
+// Output:
+// Error!

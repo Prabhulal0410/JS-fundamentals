@@ -218,3 +218,31 @@
 //     setTimeout(() => reject("Timeout"), 3000)
 //   )
 // ])
+
+
+
+
+// Promise.any()
+
+// Promise.any() returns the first successful promise.
+// It ignores rejected promises.
+
+// Example
+// const p1 = Promise.reject("Fail 1");
+// const p2 = Promise.resolve("Success");
+// const p3 = Promise.resolve("Another success");
+
+// Promise.any([p1, p2, p3])
+//   .then(result => console.log(result));
+
+// Output:
+// Success
+// 📌 If all promises fail, it throws an error.
+
+// Example:
+
+// Promise.any([
+//   Promise.reject("A"),
+//   Promise.reject("B")
+// ])
+// .catch(err => console.log(err));

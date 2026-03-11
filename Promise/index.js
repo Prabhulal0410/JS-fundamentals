@@ -246,3 +246,23 @@
 //   Promise.reject("B")
 // ])
 // .catch(err => console.log(err));
+
+
+
+// Real Example (API Requests)
+// const api1 = fetch("/users");
+// const api2 = fetch("/posts");
+// const api3 = fetch("/comments");
+
+// Promise.all([api1, api2, api3])
+//   .then(([users, posts, comments]) => {
+//     console.log(users, posts, comments);
+//   });
+
+// All APIs load at the same time, making apps faster.
+// ✅ Simple Rule to Remember
+
+// all → need everything
+// allSettled → need all results
+// race → need fastest
+// any → need first success

@@ -35,3 +35,25 @@
 // }
 
 // 👉 It makes asynchronous code look like synchronous code.
+
+
+
+// Example
+
+// function wait() {
+//   return new Promise(resolve => {
+//     setTimeout(() => {
+//       resolve("Done!");
+//     }, 2000);
+//   });
+// }
+
+// async function run() {
+//   console.log("Start");
+
+//   let result = await wait(); // wait for 2 seconds
+
+//   console.log(result);
+//   console.log("End");
+// }
+// run();

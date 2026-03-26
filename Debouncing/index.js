@@ -52,4 +52,18 @@
 // ⚖️ Debounce vs Throttle (quick difference)
 // Feature	            Debounce	                        Throttle
 // Execution	        After user stops triggering	        At fixed intervals
-// Use case	        Search, typing	                    Scroll, resize
+// Use case	        Search, typing	                        Scroll, resize
+
+
+// Example - 1
+
+// <input type="text" id="search" placeholder="Search here..." />
+// let timer;
+
+// document.getElementById("search").addEventListener("input", function (event) {
+//   clearTimeout(timer);
+
+//   timer = setTimeout(() => {
+//     console.log("Searching for:", event.target.value);
+//   }, 500);
+// });

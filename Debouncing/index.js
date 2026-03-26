@@ -45,3 +45,11 @@
 // clearTimeout cancels the previous timer
 // A new timer starts
 // The function runs only if no new event occurs within the delay
+
+
+
+
+// ⚖️ Debounce vs Throttle (quick difference)
+// Feature	            Debounce	                        Throttle
+// Execution	        After user stops triggering	        At fixed intervals
+// Use case	        Search, typing	                    Scroll, resize

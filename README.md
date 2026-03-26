@@ -20,10 +20,10 @@ The purpose of this repository is to:
 
 ## 📚 Topics Covered
 
-- **Variables** (`var`, `let`, `const`)
+- **Variables** 
 - **Data Types**
 - **Operators**
-- **Functions** (Regular & Arrow Functions)
+- **Functions** 
 - **Scope**
 - **Arrays**
 - **Objects**
@@ -31,7 +31,8 @@ The purpose of this repository is to:
 - **Conditionals**
 - **Array Methods** (`map`, `filter`, `reduce`)
 - **ES6+ Features**
-- **Asynchronous JavaScript** (coming soon)
+- **Asynchronous JavaScript**
+- **Debouncing**
 
 ---
 

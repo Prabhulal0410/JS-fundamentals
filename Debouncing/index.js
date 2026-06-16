@@ -67,3 +67,19 @@
 //     console.log("Searching for:", event.target.value);
 //   }, 500);
 // });
+
+
+
+
+
+function debounce(func,delay){
+    let timer;
+
+    return function(...args){
+        clearTimeout(timer)
+
+        setTimeout(()=>{
+            func.apply(this,args)
+        },delay)
+    }
+}

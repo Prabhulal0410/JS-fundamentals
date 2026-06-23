@@ -1,6 +1,6 @@
 # 📘 JavaScript Fundamentals
 
-Welcome to my **JavaScript Fundamentals** learning repository.
+Welcome to my **JavaScript Fundamentals** learning repository
 
 This repo documents my journey of learning and practicing core JavaScript concepts step by step.
 
@@ -46,7 +46,7 @@ js-fncfamdnts/
 ├── scope.js
 ├── arrrowfucntions.js
 ├── loops.js
-└── more files coming soon..
+└── more files coming soon.
 ```
 
 Each file focuses on a specific **JavaScript concept**.

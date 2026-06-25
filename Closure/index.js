@@ -79,11 +79,11 @@
 
 //  The Common Problem 
 
-for (var i = 1; i <= 3; i++) {
-  setTimeout(function() {
-    console.log(i);
-  }, 1000);
-}
+// for (var i = 1; i <= 3; i++) {
+//   setTimeout(function() {
+//     console.log(i);
+//   }, 1000);
+// }
 
 //  What do you expect?
 1
@@ -135,3 +135,16 @@ for (var i = 1; i <= 3; i++) {
 
 // With let or IIFE:
 // Each function gets its own backpack.
+
+
+
+function outer() {
+  let count = 0;
+  function inner() {
+    count++;
+    console.log(count);
+  }
+  return inner;
+}
+
+const counter = outer();

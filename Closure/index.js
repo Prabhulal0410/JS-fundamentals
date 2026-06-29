@@ -138,13 +138,33 @@
 
 
 
-function outer() {
-  let count = 0;
-  function inner() {
-    count++;
-    console.log(count);
+// function outer() {
+//   let count = 0;
+//   function inner() {
+//     count++;
+//     console.log(count);
+//   }
+//   return inner;
+// }
+
+// const counter = outer();
+
+
+function createBankAccount() {
+  let balance = 1000; // private variable
+
+  function deposit(amount) {
+    balance += amount;
+    console.log(`Deposited: ${amount}`);
+    console.log(`Current Balance: ${balance}`);
   }
-  return inner;
+  return deposit;
 }
 
-const counter = outer();
+const myAccount = createBankAccount();
+
+myAccount(500);  // Deposited: 500
+                 // Current Balance: 1500
+
+myAccount(200);  // Deposited: 200
+                 // Current Balance: 1700

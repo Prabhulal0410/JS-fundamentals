@@ -29,3 +29,19 @@
 // console.log(checkEven(7)); // Odd
 // console.log(checkEven(10)); // Even
 
+
+const greet = (name) => {
+  return "Hello " + name;
+};
+
+console.log(greet("Prabhulal"));
+
+const checkNumber = num => {
+  if (num > 0) {
+    return "Positive";
+  }
+  return "Negative";
+};
+
+console.log(checkNumber(5));
+

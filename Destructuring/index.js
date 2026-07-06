@@ -24,8 +24,8 @@ console.log(third);  // 30
 
 Array
 [10, 20, 30]
- ↓   ↓   ↓
- a   b   c
+//  ↓   ↓   ↓
+//  a   b   c
 
 
 // 2. Skip Values
@@ -42,9 +42,9 @@ Green
 // Notice the comma:
 
 [ Red , Green , Blue ]
-   ↑
- skipped
-3. Default Values
+//    ↑
+//  skipped
+// 3. Default Values
 
 // If a value doesn't exist, you can provide a default.
 
@@ -100,5 +100,95 @@ let b = 20;
 console.log(a, b);
 
 // Output
+// 20 10
 
-20 10
+
+
+
+
+// Object
+const user = {
+  name: "Prabhulal",
+  age: 22,
+  city: "Thane"
+};
+
+const { name, age, city } = user;
+
+console.log(name);
+console.log(age);
+console.log(city);
+
+
+const user = {
+  name: "Prabhulal",
+  age: 22
+};
+
+const { name: fullName, age: userAge } = user;
+
+console.log(fullName);
+console.log(userAge);
+
+
+const user = {
+  name: "Prabhulal"
+};
+
+const { name, city = "Mumbai" } = user;
+
+console.log(name);
+console.log(city);
+
+
+
+const user = {
+  name: "Prabhulal",
+  age: 22,
+  city: "Thane",
+  country: "India"
+};
+
+const { name, ...rest } = user;
+
+console.log(name);
+console.log(rest);
+
+
+const user = {
+  name: "Prabhulal",
+  address: {
+    city: "Thane",
+    state: "Maharashtra"
+  }
+};
+
+const {
+  address: { city, state }
+} = user;
+
+console.log(city);
+console.log(state);
+
+
+function display(user) {
+  console.log(user.name);
+  console.log(user.age);
+}
+
+display({
+  name: "Prabhulal",
+  age: 22
+});
+
+
+
+// Quick Revision Table
+// Syntax	Example
+// Basic	const { name } = user;
+// Multiple	const { name, age } = user;
+// Rename	const { name: fullName } = user;
+// Default	const { city = "Mumbai" } = user;
+// Rest	const { name, ...rest } = user;
+// Nested	const { address: { city } } = user;
+// Function	function demo({ name }) {}

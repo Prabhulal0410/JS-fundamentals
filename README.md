@@ -65,7 +65,7 @@ By the end of this repository, I aim to:
 
 ## 📈 Progress
 
-I will continue updating this repository as I learn new concepts.
+I will continue updating this repository as I learn new concepts
 
 Stay tuned 🚀
 

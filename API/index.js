@@ -29,3 +29,54 @@
 // Easy way to remember
 // API = Communication bridge
 // REST = Rules for building that bridge
+
+
+
+
+// POST → Create Data
+// fetch("https://jsonplaceholder.typicode.com/users", {
+//   method: "POST",
+//   headers: {
+//     "Content-Type": "application/json"
+//   },
+//   body: JSON.stringify({
+//     name: "Prabhulal"
+//   })
+// });
+// Meaning: Create a new user.
+
+// GET → Read Data
+// fetch("https://jsonplaceholder.typicode.com/users")
+//   .then((response) => response.json())
+//   .then((data) => console.log(data));
+// Meaning: Fetch all users.
+
+// PUT → Update Entire Data
+// fetch("https://jsonplaceholder.typicode.com/users/1", {
+//   method: "PUT",
+//   headers: {
+//     "Content-Type": "application/json"
+//   },
+//   body: JSON.stringify({
+//     name: "Rahul"
+//   })
+// });
+// Meaning: Update user with ID = 1.
+
+// DELETE → Delete Data
+// fetch("https://jsonplaceholder.typicode.com/users/1", {
+//   method: "DELETE"
+// });
+// Meaning: Delete user with ID = 1.
+
+// 5. Why is this called REST?
+
+// REST says:
+// For the resource /users, use standard HTTP methods.
+
+// GET      /users       → Read users
+// POST     /users       → Create user
+// PUT      /users/1     → Update user
+// PATCH    /users/1     → Partially update user
+// DELETE   /users/1     → Delete user
+

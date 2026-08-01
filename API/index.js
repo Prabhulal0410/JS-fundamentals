@@ -80,3 +80,74 @@
 // PATCH    /users/1     → Partially update user
 // DELETE   /users/1     → Delete user
 
+
+
+
+
+
+
+
+// 1. JSON (JavaScript Object Notation)
+
+// JSON (JavaScript Object Notation) is a lightweight data format used to store and exchange data between a client and a server. It is easy for humans to read and easy for machines to parse.
+
+// Why do we use JSON?
+// Suppose your database has:
+
+// ID   Name      City
+// 1    Prabhulal Mumbai
+// 2    Rahul     Pune
+
+// The server cannot send a database table directly to JavaScript.
+
+// Instead, it converts the data into JSON.
+
+// {
+//   "id": 1,
+//   "name": "Prabhulal",
+//   "city": "Mumbai"
+// }
+
+// JavaScript understands this format.
+// JSON vs JavaScript Object
+
+// JSON
+// {
+//   "name": "Prabhulal"
+// }
+
+// JavaScript Object
+// const user = {
+//   name: "Prabhulal"
+// };
+
+// Difference
+
+// JSON keys and string values use double quotes.
+// JavaScript objects don't require quotes around keys.
+// Important Methods
+
+// Convert Object → JSON
+
+// const user = {
+//   name: "Prabhulal"
+// };
+
+// const jsonData = JSON.stringify(user);
+// console.log(jsonData);
+
+// Output
+// {"name":"Prabhulal"}
+
+// Convert JSON → Object
+// const json = '{"name":"Prabhulal"}';
+// const obj = JSON.parse(json);
+// console.log(obj.name);
+
+// Output
+// Prabhulal
+
+// Interview Question
+// Why do APIs return JSON?
+// Answer:
+// JSON is lightweight, language-independent, and easy to parse, making it ideal for data exchange between clients and servers.

@@ -151,3 +151,24 @@
 // Why do APIs return JSON?
 // Answer:
 // JSON is lightweight, language-independent, and easy to parse, making it ideal for data exchange between clients and servers.
+
+
+
+
+// 📝 Easy Flow to Remember:-
+
+// User clicks button
+//         ↓
+// JavaScript calls fetch()
+//         ↓
+// fetch() returns a Promise
+//         ↓
+// Server processes request
+//         ↓
+// Server sends JSON response
+//         ↓
+// response.json() converts JSON
+//         ↓
+// JavaScript object is created
+//         ↓
+// Display data on UI

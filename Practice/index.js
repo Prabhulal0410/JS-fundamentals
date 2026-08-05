@@ -44,14 +44,26 @@
 
 
 // Find Largest Number
-let arr = [12, 45, 67, 2, 89];
+// let arr = [12, 45, 67, 2, 89];
 
-let largest = arr[0];
+// let largest = arr[0];
 
-for (let i = 1; i < arr.length; i++) {
-    if (arr[i] > largest) {
-        largest = arr[i];
-    }
-}
+// for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] > largest) {
+//         largest = arr[i];
+//     }
+// }
 
-console.log(largest);
+// console.log(largest);
+
+
+//  Find Smallest Number
+// let arr = [12, 45, 67, 2, 89];
+
+// let smallest = arr[0];
+// for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] < smallest) {
+//         smallest = arr[i];
+//     }
+// }
+// console.log(smallest);

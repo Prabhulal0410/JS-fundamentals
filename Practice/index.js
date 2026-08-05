@@ -24,19 +24,34 @@
 
 
 // Check Palindrome
-function isPalindrome(str) {
-    let left = 0;
-    let right = str.length - 1;
+// function isPalindrome(str) {
+//     let left = 0;
+//     let right = str.length - 1;
 
-    while (left < right) {
-        if (str[left] !== str[right]) {
-            return false;
-        }
-        left++;
-        right--;
+//     while (left < right) {
+//         if (str[left] !== str[right]) {
+//             return false;
+//         }
+//         left++;
+//         right--;
+//     }
+
+//     return true;
+// }
+
+// console.log(isPalindrome("madam"));
+
+
+
+// Find Largest Number
+let arr = [12, 45, 67, 2, 89];
+
+let largest = arr[0];
+
+for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > largest) {
+        largest = arr[i];
     }
-
-    return true;
 }
 
-console.log(isPalindrome("madam"));
+console.log(largest);

@@ -203,3 +203,21 @@
 // let result = [...arr1,...arr2];
 
 // console.log(result);
+
+
+
+// Find Maximum Occurring Character
+// let str = "javascript";
+// let obj = {};
+// for(let char of str){
+//     obj[char] = (obj[char] || 0) + 1;
+// }
+// let maxChar = "";
+// let max = 0;
+// for(let key in obj){
+//     if(obj[key] > max){
+//         max = obj[key];
+//         maxChar = key;
+//     }
+// }
+// console.log(maxChar);

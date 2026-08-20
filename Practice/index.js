@@ -266,3 +266,16 @@
 //     return true;
 // }
 // console.log(isPrime(17));
+
+
+
+// Find Common Elements in Two Arrays
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [3, 4, 5, 6, 7];
+// let common = [];
+// for (let num of arr1) {
+//     if (arr2.includes(num)) {
+//         common.push(num);
+//     }
+// }
+// console.log(common);

@@ -366,3 +366,15 @@
 //     }
 // }
 // console.log(secondSmallest);
+
+
+// Capitalize First Letter of Every Word
+// let str = "hello world javascript";
+// let words = str.split(" ");
+// let result = [];
+// for (let word of words) {
+//     let newWord =
+//         word[0].toUpperCase() + word.slice(1);
+//     result.push(newWord);
+// }
+// console.log(result.join(" "));

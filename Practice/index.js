@@ -413,3 +413,19 @@
 // }
 // let arr = [10, 20, 30, 40, 50];
 // console.log(binarySearch(arr, 40));
+
+
+
+// Count Even and Odd Numbers
+// let arr = [1, 2, 3, 4, 5, 6, 7];
+// let even = 0;
+// let odd = 0;
+// for (let num of arr) {
+//     if (num % 2 === 0) {
+//         even++;
+//     } else {
+//         odd++;
+//     }
+// }
+// console.log("Even:", even);
+// console.log("Odd:", odd);

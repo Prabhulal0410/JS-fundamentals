@@ -429,3 +429,13 @@
 // }
 // console.log("Even:", even);
 // console.log("Odd:", odd);
+
+
+// Find the Average of Array Elements
+// let arr = [10, 20, 30, 40, 50];
+// let sum = 0;
+// for (let num of arr) {
+//     sum += num;
+// }
+// let average = sum / arr.length;
+// console.log(average);

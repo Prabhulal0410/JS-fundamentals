@@ -439,3 +439,18 @@
 // }
 // let average = sum / arr.length;
 // console.log(average);
+
+
+// Find the Difference Between Largest and Smallest
+// let arr = [10, 5, 20, 8, 15];
+// let largest = arr[0];
+// let smallest = arr[0];
+// for (let num of arr) {
+//     if (num > largest) {
+//         largest = num;
+//     }
+//     if (num < smallest) {
+//         smallest = num;
+//     }
+// }
+// console.log(largest - smallest);

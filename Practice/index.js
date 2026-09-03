@@ -454,3 +454,13 @@
 //     }
 // }
 // console.log(largest - smallest);
+
+
+// Reverse Each Word in a String
+// let str = "hello world javascript";
+// let words = str.split(" ");
+// let result = [];
+// for (let word of words) {
+//     result.push(word.split("").reverse().join(""));
+// }
+// console.log(result.join(" "));

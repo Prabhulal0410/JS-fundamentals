@@ -464,3 +464,9 @@
 //     result.push(word.split("").reverse().join(""));
 // }
 // console.log(result.join(" "));
+
+
+// Count Words in a String
+// let str = "JavaScript is very powerful";
+// let words = str.split(" ");
+// console.log(words.length);

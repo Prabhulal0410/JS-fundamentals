@@ -470,3 +470,14 @@
 // let str = "JavaScript is very powerful";
 // let words = str.split(" ");
 // console.log(words.length);
+
+
+// Find Numbers Greater Than 10
+// let arr = [5, 12, 8, 20, 3, 15];
+// let result = [];
+// for (let num of arr) {
+//     if (num > 10) {
+//         result.push(num);
+//     }
+// }
+// console.log(result);

@@ -493,3 +493,15 @@
 //     }
 // }
 // console.log(result);
+
+
+// Find the Difference Between Two Arrays
+// let arr1 = [1, 2, 3, 4, 5];
+// let arr2 = [2, 4];
+// let result = [];
+// for (let num of arr1) {
+//     if (!arr2.includes(num)) {
+//         result.push(num);
+//     }
+// }
+// console.log(result);

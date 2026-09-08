@@ -495,13 +495,19 @@
 // console.log(result);
 
 
-// Find the Difference Between Two Arrays
-// let arr1 = [1, 2, 3, 4, 5];
-// let arr2 = [2, 4];
-// let result = [];
-// for (let num of arr1) {
-//     if (!arr2.includes(num)) {
-//         result.push(num);
+// Replace Spaces With -
+// let str = "hello world javascript";
+// let result = str.replaceAll(" ", "-");
+// console.log(result);
+
+// Without replaceAll()
+// let str = "hello world javascript";
+// let result = "";
+// for (let char of str) {
+//     if (char === " ") {
+//         result += "-";
+//     } else {
+//         result += char;
 //     }
 // }
 // console.log(result);

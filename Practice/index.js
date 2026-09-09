@@ -511,3 +511,15 @@
 //     }
 // }
 // console.log(result);
+
+
+// Find the Longest Word
+// let str = "I am learning JavaScript";
+// let words = str.split(" ");
+// let longest = "";
+// for (let word of words) {
+//     if (word.length > longest.length) {
+//         longest = word;
+//     }
+// }
+// console.log(longest);

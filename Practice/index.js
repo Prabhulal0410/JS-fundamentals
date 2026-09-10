@@ -523,3 +523,23 @@
 //     }
 // }
 // console.log(longest);
+
+
+
+// Count Positive, Negative and Zero
+// let arr = [2, -3, 0, 5, -1, 0, 8];
+// let positive = 0;
+// let negative = 0;
+// let zero = 0;
+// for (let num of arr) {
+//     if (num > 0) {
+//         positive++;
+//     } else if (num < 0) {
+//         negative++;
+//     } else {
+//         zero++;
+//     }
+// }
+// console.log("Positive:", positive);
+// console.log("Negative:", negative);
+// console.log("Zero:", zero);

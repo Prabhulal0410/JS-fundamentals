@@ -543,3 +543,14 @@
 // console.log("Positive:", positive);
 // console.log("Negative:", negative);
 // console.log("Zero:", zero);
+
+
+// Find All Numbers Divisible by 3
+// let arr = [3, 5, 6, 8, 9, 12, 14, 15];
+// let result = [];
+// for (let num of arr) {
+//     if (num % 3 === 0) {
+//         result.push(num);
+//     }
+// }
+// console.log(result);

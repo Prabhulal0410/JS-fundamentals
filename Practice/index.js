@@ -554,3 +554,20 @@
 //     }
 // }
 // console.log(result);
+
+
+// Find the First Duplicate Number
+// let arr = [5, 3, 7, 3, 8, 5];
+// let duplicate = null;
+// for (let i = 0; i < arr.length; i++) {
+//     for (let j = i + 1; j < arr.length; j++) {
+//         if (arr[i] === arr[j]) {
+//             duplicate = arr[i];
+//             break;
+//         }
+//     }
+//     if (duplicate !== null) {
+//         break;
+//     }
+// }
+// console.log(duplicate);

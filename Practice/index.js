@@ -588,3 +588,12 @@
 //     }
 // }
 // console.log(isEqual);
+
+
+// Find the Length of a String Without .length
+// let str = "JavaScript";
+// let count = 0;
+// for (let char of str) {
+//     count++;
+// }
+// console.log(count);

@@ -597,3 +597,16 @@
 //     count++;
 // }
 // console.log(count);
+
+
+// Count Occurrences of a Number
+// How many times does 2 appear?
+// let arr = [1, 2, 3, 2, 4, 2, 5, 2];
+// let target = 2;
+// let count = 0;
+// for (let num of arr) {
+//     if (num === target) {
+//         count++;
+//     }
+// }
+// console.log(count);

@@ -651,3 +651,15 @@
 // }
 // console.log(isPalindrome(121));
 // console.log(isPalindrome(123));
+
+
+
+// Find the Longest Number in an Array
+// let arr = [12, 456, 78, 1234, 56];
+// let longest = arr[0];
+// for (let num of arr) {
+//     if (num.toString().length > longest.toString().length) {
+//         longest = num;
+//     }
+// }
+// console.log(longest);

@@ -671,3 +671,12 @@
 // [a, b] = [b, a];
 // console.log(a);
 // console.log(b);
+
+
+// Find the Product of All Array Elements
+// let arr = [2, 3, 4, 5];
+// let product = 1;
+// for (let num of arr) {
+//     product *= num;
+// }
+// console.log(product);

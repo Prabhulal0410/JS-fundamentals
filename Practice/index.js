@@ -691,3 +691,21 @@
 //     console.log(n);
 // }
 // printNumbers(5);
+
+
+
+// Find the Longest Consecutive Sequence
+// let arr = [1, 2, 3, 7, 8, 9, 10, 15];
+// let current = 1;
+// let longest = 1;
+// for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] === arr[i - 1] + 1) {
+//         current++;
+//     } else {
+//         current = 1;
+//     }
+//     if (current > longest) {
+//         longest = current;
+//     }
+// }
+// console.log(longest);

@@ -709,3 +709,15 @@
 //     }
 // }
 // console.log(longest);
+
+
+// Convert Celsius to Fahrenheit
+// F = (C × 9/5) + 32
+// function celsiusToFahrenheit(celsius) {
+
+//     let fahrenheit = (celsius * 9 / 5) + 32;
+
+//     return fahrenheit;
+// }
+
+// console.log(celsiusToFahrenheit(25));

@@ -734,3 +734,19 @@
 //     return a;
 // }
 // console.log(gcd(12, 18));
+
+
+
+// Find the LCM of Two Numbers
+// function gcd(a, b) {
+//     while (b !== 0) {
+//         let remainder = a % b;
+//         a = b;
+//         b = remainder;
+//     }
+//     return a;
+// }
+// function lcm(a, b) {
+//     return Math.abs(a * b) / gcd(a, b);
+// }
+// console.log(lcm(12, 18));

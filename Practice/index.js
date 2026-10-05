@@ -750,3 +750,16 @@
 //     return Math.abs(a * b) / gcd(a, b);
 // }
 // console.log(lcm(12, 18));
+
+
+// Convert a Number to Binary
+// function toBinary(num) {
+//     let binary = "";
+//     while (num > 0) {
+//         let remainder = num % 2;
+//         binary = remainder + binary;
+//         num = Math.floor(num / 2);
+//     }
+//     return binary;
+// }
+// console.log(toBinary(10));

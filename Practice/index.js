@@ -780,3 +780,13 @@
 // let last = arr.pop();
 // arr.unshift(last);
 // console.log(arr);
+
+
+// Get Names of Users from an Array of Objects
+// let users = [
+//     { name: "Rahul", age: 25 },
+//     { name: "Amit", age: 30 },
+//     { name: "Priya", age: 22 }
+// ];
+// let names = users.map(user => user.name);
+// console.log(names);

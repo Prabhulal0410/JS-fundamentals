@@ -790,3 +790,14 @@
 // ];
 // let names = users.map(user => user.name);
 // console.log(names);
+
+
+// Find Users Above 25 Years Old
+// let users = [
+//     { name: "Rahul", age: 25 },
+//     { name: "Amit", age: 30 },
+//     { name: "Priya", age: 22 },
+//     { name: "Neha", age: 28 }
+// ];
+// let result = users.filter(user => user.age > 25);
+// console.log(result);

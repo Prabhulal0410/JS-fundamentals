@@ -4,7 +4,7 @@ Welcome to my **JavaScript Fundamentals** learning repository.
 
 This repo documents my journey of learning and practicing core JavaScript concepts step by step.
 
----
+--
 
 ## 🚀 About This Repository
 

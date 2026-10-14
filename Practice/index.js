@@ -801,3 +801,15 @@
 // ];
 // let result = users.filter(user => user.age > 25);
 // console.log(result);
+
+
+// Calculate Total Price Using reduce()
+// let products = [
+//     { name: "Laptop", price: 50000 },
+//     { name: "Mouse", price: 1000 },
+//     { name: "Keyboard", price: 2000 }
+// ];
+// let total = products.reduce((sum, product) => {
+//     return sum + product.price;
+// }, 0);
+// console.log(total);

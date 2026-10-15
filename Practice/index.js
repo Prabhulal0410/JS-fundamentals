@@ -813,3 +813,18 @@
 //     return sum + product.price;
 // }, 0);
 // console.log(total);
+
+
+// Find the Product With the Highest Price
+// let products = [
+//     { name: "Laptop", price: 50000 },
+//     { name: "Mouse", price: 1000 },
+//     { name: "Monitor", price: 15000 }
+// ];
+// let expensive = products[0];
+// for (let product of products) {
+//     if (product.price > expensive.price) {
+//         expensive = product;
+//     }
+// }
+// console.log(expensive);

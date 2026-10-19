@@ -828,3 +828,16 @@
 //     }
 // }
 // console.log(expensive);
+
+
+// Convert Array of Objects Into an Object
+// let users = [
+//     { id: 1, name: "Rahul" },
+//     { id: 2, name: "Amit" },
+//     { id: 3, name: "Priya" }
+// ];
+// let result = {};
+// for (let user of users) {
+//     result[user.id] = user.name;
+// }
+// console.log(result);

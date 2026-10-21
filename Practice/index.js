@@ -841,3 +841,19 @@
 //     result[user.id] = user.name;
 // }
 // console.log(result);
+
+
+// Group Numbers Into Even and Odd
+// let arr = [1, 2, 3, 4, 5, 6];
+// let result = {
+//     even: [],
+//     odd: []
+// };
+// for (let num of arr) {
+//     if (num % 2 === 0) {
+//         result.even.push(num);
+//     } else {
+//         result.odd.push(num);
+//     }
+// }
+// console.log(result);

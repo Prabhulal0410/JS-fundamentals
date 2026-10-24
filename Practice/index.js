@@ -857,3 +857,19 @@
 //     }
 // }
 // console.log(result);
+
+
+// Extract Unique Values From an Object Array
+// let users = [
+//     { name: "Rahul", city: "Mumbai" },
+//     { name: "Amit", city: "Pune" },
+//     { name: "Priya", city: "Mumbai" },
+//     { name: "Neha", city: "Thane" }
+// ];
+// let cities = [];
+// for (let user of users) {
+//     if (!cities.includes(user.city)) {
+//         cities.push(user.city);
+//     }
+// }
+// console.log(cities);

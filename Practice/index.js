@@ -873,3 +873,16 @@
 //     }
 // }
 // console.log(cities);
+
+
+
+// Find Total Salary of Employees
+// let employees = [
+//     { name: "Rahul", salary: 25000 },
+//     { name: "Amit", salary: 30000 },
+//     { name: "Priya", salary: 28000 }
+// ];
+// let totalSalary = employees.reduce((total, employee) => {
+//     return total + employee.salary;
+// }, 0);
+// console.log(totalSalary);

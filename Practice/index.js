@@ -886,3 +886,13 @@
 //     return total + employee.salary;
 // }, 0);
 // console.log(totalSalary);
+
+
+// Find the First User From a Specific City
+// let users = [
+//     { name: "Rahul", city: "Mumbai" },
+//     { name: "Amit", city: "Pune" },
+//     { name: "Priya", city: "Mumbai" }
+// ];
+// let user = users.find(user => user.city === "Mumbai");
+// console.log(user);

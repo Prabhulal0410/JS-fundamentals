@@ -896,3 +896,16 @@
 // ];
 // let user = users.find(user => user.city === "Mumbai");
 // console.log(user);
+
+
+// Calculate Average Salary of Employees
+// let employees = [
+//     { name: "Rahul", salary: 25000 },
+//     { name: "Amit", salary: 30000 },
+//     { name: "Priya", salary: 35000 }
+// ];
+// let total = employees.reduce((sum, employee) => {
+//     return sum + employee.salary;
+// }, 0);
+// let average = total / employees.length;
+// console.log(average);

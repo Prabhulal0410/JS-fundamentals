@@ -1,6 +1,6 @@
 # 📘 JavaScript Fundamentals
 
-Welcome to my **JavaScript Fundamentals** learning repository.
+Welcome to my **JavaScript Fundamentals** learning repository
 
 This repo documents my journey of learning and practicing core JavaScript concepts step by step.
 

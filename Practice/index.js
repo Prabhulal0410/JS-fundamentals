@@ -909,3 +909,15 @@
 // }, 0);
 // let average = total / employees.length;
 // console.log(average);
+
+
+
+// Swap First and Last Characters of a String
+// let str = "hello";
+
+// let result =
+//     str[str.length - 1] +
+//     str.slice(1, -1) +
+//     str[0];
+
+// console.log(result);

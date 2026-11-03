@@ -921,3 +921,23 @@
 //     str[0];
 
 // console.log(result);
+
+
+// Find the Difference Between Two Objects
+// let obj1 = {
+//     name: "Rahul",
+//     age: 25,
+//     city: "Mumbai"
+// };
+// let obj2 = {
+//     name: "Rahul",
+//     age: 30,
+//     city: "Pune"
+// };
+// let result = {};
+// for (let key in obj1) {
+//     if (obj1[key] !== obj2[key]) {
+//         result[key] = obj2[key];
+//     }
+// }
+// console.log(result);

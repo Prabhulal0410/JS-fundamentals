@@ -941,3 +941,16 @@
 //     }
 // }
 // console.log(result);
+
+
+
+// Sort Employees by Salary (Ascending)
+// let employees = [
+//     { name: "Rahul", salary: 30000 },
+//     { name: "Amit", salary: 20000 },
+//     { name: "Priya", salary: 40000 }
+// ];
+// let result = employees.sort((a, b) => {
+//     return a.salary - b.salary;
+// });
+// console.log(result);

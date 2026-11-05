@@ -954,3 +954,10 @@
 //     return a.salary - b.salary;
 // });
 // console.log(result);
+
+
+// Check Whether All Students Passed
+// A passing mark is 35.
+// let marks = [45, 67, 80, 55, 30];
+// let result = marks.every(mark => mark >= 35);
+// console.log(result);

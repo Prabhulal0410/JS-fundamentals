@@ -961,3 +961,9 @@
 // let marks = [45, 67, 80, 55, 30];
 // let result = marks.every(mark => mark >= 35);
 // console.log(result);
+
+
+// Check Whether at Least One Student Scored Above 90
+// let marks = [45, 67, 95, 55, 30];
+// let result = marks.some(mark => mark > 90);
+// console.log(result);

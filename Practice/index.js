@@ -967,3 +967,13 @@
 // let marks = [45, 67, 95, 55, 30];
 // let result = marks.some(mark => mark > 90);
 // console.log(result);
+
+
+// Convert an Object Into an Array of Key-Value Pairs
+// let user = {
+//     name: "Rahul",
+//     age: 25,
+//     city: "Mumbai"
+// };
+// let result = Object.entries(user);
+// console.log(result);

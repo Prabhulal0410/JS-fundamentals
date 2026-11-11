@@ -977,3 +977,14 @@
 // };
 // let result = Object.entries(user);
 // console.log(result);
+
+
+// Count Properties in an Object
+// let user = {
+//     name: "Amit",
+//     age: 26,
+//     city: "Thane",
+//     role: "Developer"
+// };
+// let count = Object.keys(user).length;
+// console.log(count);

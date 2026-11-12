@@ -988,3 +988,20 @@
 // };
 // let count = Object.keys(user).length;
 // console.log(count);
+
+
+// Merge Two Objects
+// If both objects contain the same key, the second object's value should overwrite the first.
+// let obj1 = {
+//     name: "Rahul",
+//     age: 25
+// };
+// let obj2 = {
+//     age: 30,
+//     city: "Mumbai"
+// };
+// let result = {
+//     ...obj1,
+//     ...obj2
+// };
+// console.log(result);

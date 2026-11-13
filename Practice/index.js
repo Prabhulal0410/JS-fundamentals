@@ -1005,3 +1005,18 @@
 //     ...obj2
 // };
 // console.log(result);
+
+
+// Find the Most Expensive Product in a Nested Category
+// let data = {
+//     category: "Electronics",
+//     products: [
+//         { name: "Laptop", price: 50000 },
+//         { name: "Mouse", price: 1000 },
+//         { name: "Monitor", price: 20000 }
+//     ]
+// };
+// let expensive = data.products.reduce((max, product) => {
+//     return product.price > max.price ? product : max;
+// });
+// console.log(expensive);

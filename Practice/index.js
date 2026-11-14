@@ -1020,3 +1020,13 @@
 //     return product.price > max.price ? product : max;
 // });
 // console.log(expensive);
+
+
+// Extract All Skills From Multiple Users
+// let users = [
+//     { name: "Rahul", skills: ["React", "JavaScript"] },
+//     { name: "Amit", skills: ["Node", "MongoDB"] },
+//     { name: "Priya", skills: ["CSS", "HTML"] }
+// ];
+// let result = users.flatMap(user => user.skills);
+// console.log(result);

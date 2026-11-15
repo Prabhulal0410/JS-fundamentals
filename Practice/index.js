@@ -1030,3 +1030,14 @@
 // ];
 // let result = users.flatMap(user => user.skills);
 // console.log(result);
+
+
+// Remove a Specific Property From an Object
+// Don't modify the original object.
+// let user = {
+//     name: "Rahul",
+//     age: 25,
+//     password: "abc123"
+// };
+// let { password, ...result } = user;
+// console.log(result);

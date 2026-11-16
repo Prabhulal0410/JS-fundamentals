@@ -1041,3 +1041,22 @@
 // };
 // let { password, ...result } = user;
 // console.log(result);
+
+
+// Create a Function That Runs Only Once
+// Even if the function is called multiple times, it should execute only once.
+// function once(fn) {
+//     let executed = false;
+//     return function () {
+//         if (!executed) {
+//             executed = true;
+//             return fn();
+//         }
+//     };
+// }
+// const greet = once(() => {
+//     console.log("Hello!");
+// });
+// greet();
+// greet();
+// greet();

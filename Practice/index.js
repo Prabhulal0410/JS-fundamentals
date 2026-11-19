@@ -1075,3 +1075,11 @@
 // console.log(counter());
 // console.log(counter());
 // console.log(counter());
+
+
+// Create a Function With Default Parameters
+// function calculatePrice(price, tax = 18) {
+//     return price + (price * tax / 100);
+// }
+// console.log(calculatePrice(1000));
+// console.log(calculatePrice(1000, 5));

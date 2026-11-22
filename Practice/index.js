@@ -1083,3 +1083,17 @@
 // }
 // console.log(calculatePrice(1000));
 // console.log(calculatePrice(1000, 5));
+
+
+// Implement a Custom Map Function
+// Create your own version of map() without using the built-in map().
+// function myMap(arr, callback) {
+//     let result = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         result.push(callback(arr[i], i, arr));
+//     }
+//     return result;
+// }
+// let numbers = [1, 2, 3, 4];
+// let result = myMap(numbers, num => num * 2);
+// console.log(result);

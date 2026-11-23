@@ -1097,3 +1097,18 @@
 // let numbers = [1, 2, 3, 4];
 // let result = myMap(numbers, num => num * 2);
 // console.log(result);
+
+
+// Implement a Custom Filter Function
+// function myFilter(arr, callback) {
+//     let result = [];
+//     for (let i = 0; i < arr.length; i++) {
+//         if (callback(arr[i], i, arr)) {
+//             result.push(arr[i]);
+//         }
+//     }
+//     return result;
+// }
+// let numbers = [10, 15, 20, 25, 30];
+// let result = myFilter(numbers, num => num > 20);
+// console.log(result);

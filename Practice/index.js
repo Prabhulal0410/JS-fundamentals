@@ -1112,3 +1112,16 @@
 // let numbers = [10, 15, 20, 25, 30];
 // let result = myFilter(numbers, num => num > 20);
 // console.log(result);
+
+
+// Create a Promise That Resolves After 2 Seconds
+// function getData() {
+//     return new Promise((resolve) => {
+//         setTimeout(() => {
+//             resolve("Data received successfully");
+//         }, 2000);
+//     });
+// }
+// getData().then(result => {
+//     console.log(result);
+// });
